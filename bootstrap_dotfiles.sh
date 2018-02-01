@@ -5,5 +5,5 @@ if ! [ -d "$HOME/bin" ] ; then
 fi
 
 ln -s ~/.yadm-project/yadm ~/bin/yadm
-yadm clone https://github.com/lgandersen/dotfiles.git
-yadm status
+~/.yadm-project/yadm clone https://github.com/lgandersen/dotfiles.git
+~/.yadm-project/yadm status
